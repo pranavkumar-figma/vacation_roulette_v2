@@ -1,0 +1,54 @@
+- generic [ref=f3e3]:
+  - navigation "Primary" [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "Vacation Roulette" [ref=f3e6]:
+        - /url: "#/"
+      - link "Plan a trip" [ref=f3e9] [cursor=pointer]:
+        - /url: /#/plan
+  - main [ref=f3e10]:
+    - generic [ref=f3e103]:
+      - generic [ref=f3e104]:
+        - heading "Your 3 picks" [level=1] [ref=f3e106]
+        - generic [ref=f3e107]:
+          - button "Edit inputs" [ref=f3e108] [cursor=pointer]
+          - button "Re-spin" [ref=f3e109] [cursor=pointer]
+      - generic [ref=f3e110]:
+        - generic [ref=f3e111]:
+          - img "Charleston" [ref=f3e112]
+          - generic [ref=f3e113]:
+            - heading "Charleston, United States" [level=2] [ref=f3e115]
+            - paragraph [ref=f3e116]: Charleston leans right into your relax and food vibe, with the beach and food you flagged as must-haves. It's about 5.5h from San Francisco, within your 8h limit, and the estimated $2,160 sits inside your $4,000 budget.
+            - generic [ref=f3e117]: ~5.5h · $2.2K · food + history
+            - generic [ref=f3e118]:
+              - button "Details" [ref=f3e119] [cursor=pointer]
+              - link "Book" [ref=f3e120] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights?q=Flights%20from%20SFO%20to%20Charleston%20on%202026-09-28%20through%202026-10-05
+        - generic [ref=f3e121]:
+          - img "New Orleans" [ref=f3e122]
+          - generic [ref=f3e123]:
+            - heading "New Orleans, United States" [level=2] [ref=f3e125]
+            - paragraph [ref=f3e126]: New Orleans leans right into your food vibe, with the food you flagged as must-haves. It's about 5.5h from San Francisco, within your 8h limit, and the estimated $1,670 sits inside your $4,000 budget.
+            - generic [ref=f3e127]: ~5.5h · $1.7K · food + nightlife
+            - generic [ref=f3e128]:
+              - button "Details" [ref=f3e129] [cursor=pointer]
+              - link "Book" [ref=f3e130] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights?q=Flights%20from%20SFO%20to%20New%20Orleans%20on%202026-09-28%20through%202026-10-05
+        - generic [ref=f3e131]:
+          - img "Oaxaca" [ref=f3e132]
+          - generic [ref=f3e133]:
+            - heading "Oaxaca, Mexico" [level=2] [ref=f3e135]
+            - paragraph [ref=f3e136]: Oaxaca leans right into your food vibe, with the food you flagged as must-haves. It's about 4.5h from San Francisco, within your 8h limit, and the estimated $1,550 sits inside your $4,000 budget.
+            - generic [ref=f3e137]: ~4.5h · $1.6K · food + history
+            - generic [ref=f3e138]:
+              - button "Details" [ref=f3e139] [cursor=pointer]
+              - link "Book" [ref=f3e140] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights?q=Flights%20from%20SFO%20to%20Oaxaca%20on%202026-09-28%20through%202026-10-05
+      - separator [ref=f3e141]
+      - generic [ref=f3e142]:
+        - button "Share these picks" [ref=f3e144] [cursor=pointer]
+        - generic [ref=f3e145]:
+          - generic [ref=f3e146]:
+            - switch "Simulate live-API outage"
+          - generic [ref=f3e147]: Simulate live-API outage
+  - contentinfo [ref=f3e35]:
+    - generic [ref=f3e36]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.

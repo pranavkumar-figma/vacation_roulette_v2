@@ -28,6 +28,7 @@ import {
 import { useSession } from "../../state/SessionContext";
 import { validateInputs } from "../../state/validation";
 import { ChipGroup, LabeledField, Stepper, type ChipOption } from "../components/controls";
+import { useDocumentTitle } from "../hooks";
 
 const titleCase = (s: string) =>
   s.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
@@ -50,6 +51,7 @@ export function Questionnaire() {
   const [step, setStep] = useState(1);
   const [attempted, setAttempted] = useState(false);
   const navigate = useNavigate();
+  useDocumentTitle("Plan your spin");
 
   const validation = validateInputs(inputs);
   const showErrors = attempted;
@@ -305,7 +307,7 @@ export function Questionnaire() {
         </div>
 
         <div className="vr-stack">
-          <TextHeading>{current.title}</TextHeading>
+          <TextHeading elementType="h2">{current.title}</TextHeading>
           {current.render()}
         </div>
 

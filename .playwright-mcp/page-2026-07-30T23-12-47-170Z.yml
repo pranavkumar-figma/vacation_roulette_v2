@@ -1,0 +1,36 @@
+- generic [ref=f3e3]:
+  - navigation "Primary" [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "Vacation Roulette" [ref=f3e6]:
+        - /url: "#/"
+      - link "Plan a trip" [ref=f3e9] [cursor=pointer]:
+        - /url: /#/plan
+  - main [ref=f3e10]:
+    - generic [ref=f3e75]:
+      - heading "Spinning the roulette…" [level=1] [ref=f3e77]
+      - img "Roulette of your top matches" [ref=f3e78]:
+        - generic [ref=f3e80]:
+          - generic [ref=f3e81]: San Diego
+          - generic [ref=f3e82]: Charleston
+          - generic [ref=f3e83]: Vancouver
+          - generic [ref=f3e84]: Maui
+          - generic [ref=f3e85]: Honolulu & Oahu
+          - generic [ref=f3e86]: New York City
+          - generic [ref=f3e87]: Nashville
+          - generic [ref=f3e88]: Oaxaca
+          - generic [ref=f3e89]: New Orleans
+          - generic [ref=f3e90]: Mexico City
+          - generic [ref=f3e91]: San Diego
+          - generic [ref=f3e92]: Charleston
+          - generic [ref=f3e93]: Vancouver
+          - generic [ref=f3e94]: Maui
+          - generic [ref=f3e95]: Honolulu & Oahu
+          - generic [ref=f3e96]: New York City
+          - generic [ref=f3e97]: Nashville
+          - generic [ref=f3e98]: Oaxaca
+          - generic [ref=f3e99]: New Orleans
+          - generic [ref=f3e100]: Mexico City
+      - paragraph [ref=f3e101]: Lands only on your top matches — so every result fits.
+      - button "Skip animation" [ref=f3e102] [cursor=pointer]
+  - contentinfo [ref=f3e35]:
+    - generic [ref=f3e36]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.
