@@ -1,0 +1,36 @@
+- generic [ref=e3]:
+  - navigation "Primary" [ref=e4]:
+    - generic [ref=e5]:
+      - link "Vacation Roulette" [ref=e6]:
+        - /url: "#/"
+      - generic [ref=e8]:
+        - link "Plan a trip" [ref=e9] [cursor=pointer]:
+          - /url: /#/plan
+        - button "Switch to light mode" [active] [ref=e41] [cursor=pointer]
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - heading "Don't pick. Just spin." [level=1] [ref=e18]
+            - paragraph [ref=e19]: Answer 8 quick questions and get 3 destinations tuned to your dates, budget, group, and vibe.
+          - generic [ref=e20]:
+            - button "Start the spin" [ref=e21] [cursor=pointer]
+            - link "How it works" [ref=e22] [cursor=pointer]:
+              - /url: "#how-it-works"
+        - img "A scenic travel destination" [ref=e23]
+      - generic [ref=e24]:
+        - paragraph [ref=e25]: How it works
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Tuned to your vibe" [level=3] [ref=e28]
+            - paragraph [ref=e29]: Eight quick questions capture your dates, group, budget, and the mood of the trip.
+          - generic [ref=e30]:
+            - heading "Real prices & flight times" [level=3] [ref=e31]
+            - paragraph [ref=e32]: Every candidate is checked against estimated flight time and total cost before it can win.
+          - generic [ref=e33]:
+            - heading "One spin, 3 great picks" [level=3] [ref=e34]
+            - paragraph [ref=e35]: The wheel only lands on your top matches — so every result is somewhere you'd actually go.
+        - button "Start the spin" [ref=e37] [cursor=pointer]
+  - contentinfo [ref=e38]:
+    - generic [ref=e39]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.

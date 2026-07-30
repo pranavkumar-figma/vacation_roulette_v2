@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+echo "Starting Vite development server on port ${PORT:-8000}"
+# --host keeps it reachable; Vite does not auto-open a browser by default.
+npm run app:dev -- --host --port "${PORT:-8000}"

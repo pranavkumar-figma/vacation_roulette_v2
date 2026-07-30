@@ -10,6 +10,18 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
     rel="stylesheet">
   <title>SDS</title>
+  <script>
+    // Apply the saved theme before first paint to avoid a flash of the wrong mode.
+    (function () {
+      try {
+        var stored = localStorage.getItem("vr-theme");
+        var theme = stored === "light" || stored === "dark"
+          ? stored
+          : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) { /* localStorage unavailable — fall back to OS media query */ }
+    })();
+  </script>
 </head>
 
 <body>
