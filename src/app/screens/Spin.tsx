@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, Text, TextContentTitle } from "primitives";
 import { useSession } from "../../state/SessionContext";
-import { usePrefersReducedMotion } from "../hooks";
+import { usePrefersReducedMotion, useDocumentTitle } from "../hooks";
 import { RouletteWheel } from "../components/RouletteWheel";
 
 const SPIN_MS = 2200;
@@ -12,6 +12,7 @@ export function Spin() {
   const navigate = useNavigate();
   const reduced = usePrefersReducedMotion();
   const [spinning, setSpinning] = useState(true);
+  useDocumentTitle("Spinning the roulette…");
 
   // Ensure a result exists even on direct navigation / refresh.
   useEffect(() => {

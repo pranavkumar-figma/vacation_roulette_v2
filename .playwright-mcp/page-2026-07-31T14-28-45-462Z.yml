@@ -1,0 +1,46 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e155]:
+    - log
+    - log
+  - generic [ref=f4e3]:
+    - navigation "Primary" [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "Vacation Roulette" [ref=f4e6]:
+          - /url: "#/"
+        - link "Plan a trip" [ref=f4e9] [cursor=pointer]:
+          - /url: /#/plan
+    - main [ref=f4e10]:
+      - generic [ref=f4e244]:
+        - generic [ref=f4e245]:
+          - heading "Plan your spin" [level=1] [ref=f4e246]
+          - paragraph [ref=f4e247]: 9 quick questions · about a minute
+        - generic [ref=f4e248]:
+          - generic [ref=f4e249]: Step 7 of 9
+          - generic [ref=f4e253]:
+            - heading "Any must-haves?" [level=2] [ref=f4e355]
+            - generic [ref=f4e255]:
+              - generic [ref=f4e256]: Must-haves
+              - grid "Interests" [ref=f4e357]:
+                - row "Beach" [selected] [ref=f4e358] [cursor=pointer]:
+                  - gridcell "Beach" [ref=f4e359]
+                - row "Mountains" [ref=f4e360] [cursor=pointer]:
+                  - gridcell "Mountains" [ref=f4e361]
+                - row "Nightlife" [ref=f4e362] [cursor=pointer]:
+                  - gridcell "Nightlife" [ref=f4e363]
+                - row "Food" [selected] [ref=f4e364] [cursor=pointer]:
+                  - gridcell "Food" [ref=f4e365]
+                - row "Museums" [ref=f4e366] [cursor=pointer]:
+                  - gridcell "Museums" [ref=f4e367]
+                - row "Nature" [ref=f4e368] [cursor=pointer]:
+                  - gridcell "Nature" [ref=f4e369]
+                - row "Shopping" [ref=f4e370] [cursor=pointer]:
+                  - gridcell "Shopping" [ref=f4e371]
+                - row "History" [ref=f4e372] [cursor=pointer]:
+                  - gridcell "History" [ref=f4e373]
+              - generic [ref=f4e374]: Anything the trip needs to have.
+          - separator [ref=f4e276]
+          - generic [ref=f4e277]:
+            - button "Back" [ref=f4e290] [cursor=pointer]
+            - button "Next" [active] [ref=f4e279] [cursor=pointer]
+    - contentinfo [ref=f4e47]:
+      - generic [ref=f4e48]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.

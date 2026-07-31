@@ -21,7 +21,7 @@ export function PickCard({ pick }: { pick: Pick }) {
       <img className="vr-pick-image" src={destination.image.url} alt={destination.name} loading="lazy" />
       <div className="vr-card-pad vr-stack" style={{ gap: "var(--sds-size-space-200)" }}>
         <div className="vr-row" style={{ justifyContent: "space-between" }}>
-          <TextHeading>{`${destination.name}, ${destination.country}`}</TextHeading>
+          <TextHeading elementType="h2">{`${destination.name}, ${destination.country}`}</TextHeading>
           {pick.stretch ? (
             <Tag scheme="warning" variant="secondary">Stretch pick</Tag>
           ) : enrichment.flight.estimated ? (

@@ -1,0 +1,39 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e155]:
+    - log
+    - log
+  - generic [ref=f4e3]:
+    - navigation "Primary" [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "Vacation Roulette" [ref=f4e6]:
+          - /url: "#/"
+        - link "Plan a trip" [ref=f4e9] [cursor=pointer]:
+          - /url: /#/plan
+    - main [ref=f4e10]:
+      - generic [ref=f4e244]:
+        - generic [ref=f4e245]:
+          - heading "Plan your spin" [level=1] [ref=f4e246]
+          - paragraph [ref=f4e247]: 9 quick questions · about a minute
+        - generic [ref=f4e248]:
+          - generic [ref=f4e249]: Step 4 of 9
+          - generic [ref=f4e253]:
+            - heading "Who's going?" [level=2] [ref=f4e296]
+            - generic [ref=f4e255]:
+              - generic [ref=f4e256]: Who's going?
+              - grid "Trip composition" [ref=f4e298]:
+                - row "Solo" [ref=f4e299] [cursor=pointer]:
+                  - gridcell "Solo" [ref=f4e300]
+                - row "Couple" [selected] [ref=f4e301] [cursor=pointer]:
+                  - gridcell "Couple" [ref=f4e302]
+                - row "Family" [ref=f4e303] [cursor=pointer]:
+                  - gridcell "Family" [ref=f4e304]
+                - row "Friends" [ref=f4e305] [cursor=pointer]:
+                  - gridcell "Friends" [ref=f4e306]
+                - row "Mixed" [ref=f4e307] [cursor=pointer]:
+                  - gridcell "Mixed" [ref=f4e308]
+          - separator [ref=f4e276]
+          - generic [ref=f4e277]:
+            - button "Back" [ref=f4e290] [cursor=pointer]
+            - button "Next" [active] [ref=f4e279] [cursor=pointer]
+    - contentinfo [ref=f4e47]:
+      - generic [ref=f4e48]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.

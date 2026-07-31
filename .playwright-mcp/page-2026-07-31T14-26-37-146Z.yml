@@ -1,0 +1,39 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e155]:
+    - log [ref=f4e156]:
+      - generic [ref=f4e159]: Hot Weather selected. 3 items selected.
+    - log
+  - generic [ref=f4e3]:
+    - navigation "Primary" [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "Vacation Roulette" [ref=f4e6]:
+          - /url: "#/"
+        - link "Plan a trip" [ref=f4e9] [cursor=pointer]:
+          - /url: /#/plan
+    - main [ref=f4e10]:
+      - generic [ref=f4e11]:
+        - generic [ref=f4e12]:
+          - heading "Plan your spin" [level=1] [ref=f4e13]
+          - paragraph [ref=f4e14]: 9 quick questions · about a minute
+        - generic [ref=f4e15]:
+          - generic [ref=f4e16]: Step 8 of 9
+          - generic [ref=f4e20]:
+            - heading "Any dealbreakers?" [level=2] [ref=f4e145]
+            - generic [ref=f4e22]:
+              - generic [ref=f4e23]: Dealbreakers
+              - grid "Dealbreakers" [ref=f4e146]:
+                - row "Long Haul Flight" [selected] [ref=f4e147] [cursor=pointer]:
+                  - gridcell "Long Haul Flight" [ref=f4e148]
+                - row "Cold Weather" [selected] [ref=f4e149] [cursor=pointer]:
+                  - gridcell "Cold Weather" [ref=f4e150]
+                - row "Hot Weather" [active] [selected] [ref=f4e151] [cursor=pointer]:
+                  - gridcell "Hot Weather" [ref=f4e152]
+                - row "Big Crowds" [ref=f4e153] [cursor=pointer]:
+                  - gridcell "Big Crowds" [ref=f4e154]
+              - generic [ref=f4e144]: Hard nos we'll filter out.
+          - separator [ref=f4e43]
+          - generic [ref=f4e44]:
+            - button "Back" [ref=f4e60] [cursor=pointer]
+            - button "Next" [ref=f4e46] [cursor=pointer]
+    - contentinfo [ref=f4e47]:
+      - generic [ref=f4e48]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.

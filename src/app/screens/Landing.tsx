@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { Button, ButtonGroup, Text, TextContentTitle, TextHeading, TextSubtitle } from "primitives";
 import { useSession } from "../../state/SessionContext";
+import { useDocumentTitle } from "../hooks";
 
 const FEATURES = [
   {
@@ -20,6 +21,7 @@ const FEATURES = [
 export function Landing() {
   const navigate = useNavigate();
   const { run } = useSession();
+  useDocumentTitle("Don't pick, just spin");
 
   const start = () => {
     navigate("/plan");
@@ -50,7 +52,7 @@ export function Landing() {
       </section>
 
       <section id="how-it-works" className="vr-stack">
-        <TextSubtitle>How it works</TextSubtitle>
+        <TextSubtitle elementType="h2">How it works</TextSubtitle>
         <div className="vr-feature-grid">
           {FEATURES.map((f) => (
             <div key={f.title} className="vr-card vr-card-pad vr-stack" style={{ gap: "var(--sds-size-space-150)" }}>

@@ -1,0 +1,41 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e155]:
+    - log
+    - log
+  - generic [ref=f4e3]:
+    - navigation "Primary" [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "Vacation Roulette" [ref=f4e6]:
+          - /url: "#/"
+        - link "Plan a trip" [ref=f4e9] [cursor=pointer]:
+          - /url: /#/plan
+    - main [ref=f4e10]:
+      - generic [ref=f4e244]:
+        - generic [ref=f4e245]:
+          - heading "Plan your spin" [level=1] [ref=f4e246]
+          - paragraph [ref=f4e247]: 9 quick questions · about a minute
+        - generic [ref=f4e248]:
+          - generic [ref=f4e249]: Step 1 of 9
+          - generic [ref=f4e253]:
+            - heading "When do you want to travel?" [level=2] [ref=f4e254]
+            - generic [ref=f4e255]:
+              - generic [ref=f4e256]: Travel dates
+              - generic [ref=f4e257]:
+                - textbox "Start date" [ref=f4e258]: 2026-09-28
+                - textbox "End date" [ref=f4e259]: 2026-10-05
+              - generic [ref=f4e260]:
+                - generic [ref=f4e261]:
+                  - generic [ref=f4e262]:
+                    - switch "Flexible dates" [checked]
+                  - generic [ref=f4e263]: Flexible dates
+                - button "± 3 days Flexible by how many days" [ref=f4e268]:
+                  - generic [ref=f4e269]: ± 3 days
+                - combobox [ref=f4e274]
+              - generic [ref=f4e275]: When do you want to travel?
+          - separator [ref=f4e276]
+          - generic [ref=f4e277]:
+            - link "Back" [ref=f4e278] [cursor=pointer]:
+              - /url: /#/
+            - button "Next" [ref=f4e279] [cursor=pointer]
+    - contentinfo [ref=f4e47]:
+      - generic [ref=f4e48]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.

@@ -1,0 +1,28 @@
+- generic [ref=f4e3]:
+  - navigation "Primary" [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - link "Vacation Roulette" [ref=f4e6]:
+        - /url: "#/"
+      - link "Plan a trip" [ref=f4e9] [cursor=pointer]:
+        - /url: /#/plan
+  - main [ref=f4e10]:
+    - generic [ref=f4e11]:
+      - generic [ref=f4e12]:
+        - heading "Plan your spin" [level=1] [ref=f4e13]
+        - paragraph [ref=f4e14]: 9 quick questions · about a minute
+      - generic [ref=f4e15]:
+        - generic [ref=f4e16]: Step 3 of 9
+        - generic [ref=f4e20]:
+          - heading "How many travelers?" [level=2] [ref=f4e61]
+          - generic [ref=f4e22]:
+            - generic [ref=f4e23]: Party size
+            - group "Party size" [ref=f4e62]:
+              - button "Decrease" [ref=f4e63] [cursor=pointer]: −
+              - generic [ref=f4e64]: "2"
+              - button "Increase" [ref=f4e65] [cursor=pointer]: +
+        - separator [ref=f4e43]
+        - generic [ref=f4e44]:
+          - button "Back" [ref=f4e60] [cursor=pointer]
+          - button "Next" [active] [ref=f4e46] [cursor=pointer]
+  - contentinfo [ref=f4e47]:
+    - generic [ref=f4e48]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.

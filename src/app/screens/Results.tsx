@@ -13,6 +13,7 @@ import { useSession } from "../../state/SessionContext";
 import { buildShareUrl, decodeShare } from "../../state/share";
 import { PickCard } from "../components/PickCard";
 import { NoMatch } from "../components/NoMatch";
+import { useDocumentTitle } from "../hooks";
 
 export function Results() {
   const {
@@ -27,6 +28,7 @@ export function Results() {
     setDegraded,
   } = useSession();
   const navigate = useNavigate();
+  useDocumentTitle("Your 3 picks");
   const [searchParams] = useSearchParams();
   const [copied, setCopied] = useState(false);
   const loadedShare = useRef(false);

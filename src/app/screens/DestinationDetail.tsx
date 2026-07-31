@@ -18,6 +18,7 @@ import {
 import { useSession } from "../../state/SessionContext";
 import { useFormatters } from "../useFormatters";
 import { LinkButton } from "../components/controls";
+import { useDocumentTitle } from "../hooks";
 
 const titleCase = (s: string) => s.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
@@ -39,6 +40,10 @@ export function DestinationDetail() {
   const pick = useMemo(
     () => (id ? describeDestination(id, inputs, { degraded }) : null),
     [id, inputs, degraded],
+  );
+
+  useDocumentTitle(
+    pick ? `${pick.destination.name}, ${pick.destination.country}` : "Destination",
   );
 
   if (!pick) {

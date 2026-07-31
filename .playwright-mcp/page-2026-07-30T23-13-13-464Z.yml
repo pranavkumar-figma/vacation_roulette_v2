@@ -1,0 +1,41 @@
+- generic [ref=f3e3]:
+  - navigation "Primary" [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "Vacation Roulette" [ref=f3e6]:
+        - /url: "#/"
+      - link "Plan a trip" [ref=f3e9] [cursor=pointer]:
+        - /url: /#/plan
+  - main [ref=f3e10]:
+    - generic [ref=f3e150]:
+      - button "← Back to picks" [ref=f3e151] [cursor=pointer]
+      - generic [ref=f3e152]:
+        - generic [ref=f3e153]:
+          - img "Charleston" [ref=f3e154]
+          - generic [ref=f3e155]: Placeholder image (Lorem Picsum) — Unsplash with attribution in production
+        - generic [ref=f3e156]:
+          - generic [ref=f3e157]:
+            - heading "Charleston, United States" [level=1] [ref=f3e158]
+            - paragraph [ref=f3e159]: Antebellum charm, low-country cooking, and easy beaches.
+          - generic [ref=f3e160]:
+            - strong [ref=f3e161]: Why this fits
+            - paragraph [ref=f3e162]: Charleston leans right into your relax and food vibe, with the beach and food you flagged as must-haves. It's about 5.5h from San Francisco, within your 8h limit, and the estimated $2,160 sits inside your $4,000 budget.
+          - generic [ref=f3e163]:
+            - generic [ref=f3e164]:
+              - generic [ref=f3e165]: Flight
+              - strong [ref=f3e166]: ~5.5h
+            - generic [ref=f3e167]:
+              - generic [ref=f3e168]: Est. cost
+              - strong [ref=f3e169]: $2.2K / $4K
+            - generic [ref=f3e170]:
+              - generic [ref=f3e171]: Best for
+              - strong [ref=f3e172]: Romance · Food
+          - generic [ref=f3e173]:
+            - link "Find flights" [ref=f3e174] [cursor=pointer]:
+              - /url: https://www.google.com/travel/flights?q=Flights%20from%20SFO%20to%20Charleston%20on%202026-09-28%20through%202026-10-05
+            - link "Find stays" [ref=f3e175] [cursor=pointer]:
+              - /url: https://www.booking.com/searchresults.html?ss=Charleston%2C+United+States&checkin=2026-09-28&checkout=2026-10-05&group_adults=2
+          - generic [ref=f3e176]:
+            - button "Save" [ref=f3e177] [cursor=pointer]
+            - button "Re-spin" [ref=f3e178] [cursor=pointer]
+  - contentinfo [ref=f3e35]:
+    - generic [ref=f3e36]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.
