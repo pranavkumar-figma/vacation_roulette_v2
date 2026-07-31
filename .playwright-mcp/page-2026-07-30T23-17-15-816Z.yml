@@ -1,0 +1,42 @@
+- generic [ref=f3e3]:
+  - navigation "Primary" [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "Vacation Roulette" [ref=f3e6]:
+        - /url: "#/"
+      - link "Plan a trip" [ref=f3e9] [cursor=pointer]:
+        - /url: /#/plan
+  - main [ref=f3e10]:
+    - generic [ref=f3e203]:
+      - generic [ref=f3e204]:
+        - heading "Plan your spin" [level=1] [ref=f3e205]
+        - paragraph [ref=f3e206]: 9 quick questions · about a minute
+      - generic [ref=f3e207]:
+        - generic [ref=f3e208]: Step 7 of 9
+        - generic [ref=f3e212]:
+          - heading "Any must-haves?" [level=2] [ref=f3e314]
+          - generic [ref=f3e214]:
+            - generic [ref=f3e215]: Must-haves
+            - grid "Interests" [ref=f3e316]:
+              - row "Beach" [selected] [ref=f3e317] [cursor=pointer]:
+                - gridcell "Beach" [ref=f3e318]
+              - row "Mountains" [ref=f3e319] [cursor=pointer]:
+                - gridcell "Mountains" [ref=f3e320]
+              - row "Nightlife" [ref=f3e321] [cursor=pointer]:
+                - gridcell "Nightlife" [ref=f3e322]
+              - row "Food" [selected] [ref=f3e323] [cursor=pointer]:
+                - gridcell "Food" [ref=f3e324]
+              - row "Museums" [ref=f3e325] [cursor=pointer]:
+                - gridcell "Museums" [ref=f3e326]
+              - row "Nature" [ref=f3e327] [cursor=pointer]:
+                - gridcell "Nature" [ref=f3e328]
+              - row "Shopping" [ref=f3e329] [cursor=pointer]:
+                - gridcell "Shopping" [ref=f3e330]
+              - row "History" [ref=f3e331] [cursor=pointer]:
+                - gridcell "History" [ref=f3e332]
+            - generic [ref=f3e333]: Anything the trip needs to have.
+        - separator [ref=f3e235]
+        - generic [ref=f3e236]:
+          - button "Back" [ref=f3e249] [cursor=pointer]
+          - button "Next" [active] [ref=f3e238] [cursor=pointer]
+  - contentinfo [ref=f3e35]:
+    - generic [ref=f3e36]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.
