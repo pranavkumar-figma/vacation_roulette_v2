@@ -1,0 +1,44 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e155]:
+    - log
+    - log
+  - generic [ref=f4e3]:
+    - navigation "Primary" [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "Vacation Roulette" [ref=f4e6]:
+          - /url: "#/"
+        - link "Plan a trip" [ref=f4e9] [cursor=pointer]:
+          - /url: /#/plan
+    - main [ref=f4e10]:
+      - generic [ref=f4e244]:
+        - generic [ref=f4e245]:
+          - heading "Plan your spin" [level=1] [ref=f4e246]
+          - paragraph [ref=f4e247]: 9 quick questions · about a minute
+        - generic [ref=f4e248]:
+          - generic [ref=f4e249]: Step 6 of 9
+          - generic [ref=f4e253]:
+            - heading "What's your budget?" [level=2] [ref=f4e326]
+            - generic [ref=f4e255]:
+              - generic [ref=f4e256]: Budget — $4,000
+              - group "Budget amount" [ref=f4e327]:
+                - slider "Budget amount" [ref=f4e332]: "4000"
+              - generic [ref=f4e333]:
+                - grid "Budget basis" [ref=f4e335]:
+                  - row "Total" [selected] [ref=f4e336] [cursor=pointer]:
+                    - gridcell "Total" [ref=f4e337]
+                  - row "Per person" [ref=f4e338] [cursor=pointer]:
+                    - gridcell "Per person" [ref=f4e339]
+                - grid "Budget covers" [ref=f4e341]:
+                  - row "Flights + lodging" [selected] [ref=f4e342] [cursor=pointer]:
+                    - gridcell "Flights + lodging" [ref=f4e343]
+                  - row "On-the-ground only" [ref=f4e344] [cursor=pointer]:
+                    - gridcell "On-the-ground only" [ref=f4e345]
+                - button "USD Display currency" [ref=f4e348]:
+                  - generic [ref=f4e349]: USD
+                - combobox [ref=f4e354]
+          - separator [ref=f4e276]
+          - generic [ref=f4e277]:
+            - button "Back" [ref=f4e290] [cursor=pointer]
+            - button "Next" [active] [ref=f4e279] [cursor=pointer]
+    - contentinfo [ref=f4e47]:
+      - generic [ref=f4e48]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.

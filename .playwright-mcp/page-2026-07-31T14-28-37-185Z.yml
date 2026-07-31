@@ -1,0 +1,44 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e155]:
+    - log
+    - log
+  - generic [ref=f4e3]:
+    - navigation "Primary" [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "Vacation Roulette" [ref=f4e6]:
+          - /url: "#/"
+        - link "Plan a trip" [ref=f4e9] [cursor=pointer]:
+          - /url: /#/plan
+    - main [ref=f4e10]:
+      - generic [ref=f4e244]:
+        - generic [ref=f4e245]:
+          - heading "Plan your spin" [level=1] [ref=f4e246]
+          - paragraph [ref=f4e247]: 9 quick questions · about a minute
+        - generic [ref=f4e248]:
+          - generic [ref=f4e249]: Step 5 of 9
+          - generic [ref=f4e253]:
+            - heading "What's the vibe?" [level=2] [ref=f4e309]
+            - generic [ref=f4e255]:
+              - generic [ref=f4e256]: Vibe
+              - grid "Vibe" [ref=f4e310]:
+                - row "Relax" [selected] [ref=f4e311] [cursor=pointer]:
+                  - gridcell "Relax" [ref=f4e312]
+                - row "Adventure" [ref=f4e313] [cursor=pointer]:
+                  - gridcell "Adventure" [ref=f4e314]
+                - row "Party" [ref=f4e315] [cursor=pointer]:
+                  - gridcell "Party" [ref=f4e316]
+                - row "Culture" [ref=f4e317] [cursor=pointer]:
+                  - gridcell "Culture" [ref=f4e318]
+                - row "Nature" [ref=f4e319] [cursor=pointer]:
+                  - gridcell "Nature" [ref=f4e320]
+                - row "Romance" [ref=f4e321] [cursor=pointer]:
+                  - gridcell "Romance" [ref=f4e322]
+                - row "Food" [selected] [ref=f4e323] [cursor=pointer]:
+                  - gridcell "Food" [ref=f4e324]
+              - generic [ref=f4e325]: Pick as many as you like.
+          - separator [ref=f4e276]
+          - generic [ref=f4e277]:
+            - button "Back" [ref=f4e290] [cursor=pointer]
+            - button "Next" [active] [ref=f4e279] [cursor=pointer]
+    - contentinfo [ref=f4e47]:
+      - generic [ref=f4e48]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.

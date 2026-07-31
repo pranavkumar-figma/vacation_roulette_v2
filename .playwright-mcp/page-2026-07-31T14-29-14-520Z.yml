@@ -1,0 +1,35 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e155]:
+    - log
+    - log
+  - generic [ref=f4e3]:
+    - navigation "Primary" [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "Vacation Roulette" [ref=f4e6]:
+          - /url: "#/"
+        - link "Plan a trip" [ref=f4e9] [cursor=pointer]:
+          - /url: /#/plan
+    - main [ref=f4e10]:
+      - generic [ref=f4e244]:
+        - generic [ref=f4e245]:
+          - heading "Plan your spin" [level=1] [ref=f4e246]
+          - paragraph [ref=f4e247]: 9 quick questions · about a minute
+        - generic [ref=f4e248]:
+          - generic [ref=f4e249]: Step 9 of 9
+          - generic [ref=f4e253]:
+            - heading "How far will you go?" [level=2] [ref=f4e385]
+            - generic [ref=f4e255]:
+              - generic [ref=f4e256]: How far? — max 8h
+              - grid "Reach" [ref=f4e387]:
+                - row "Domestic" [active] [selected] [ref=f4e388] [cursor=pointer]:
+                  - gridcell "Domestic" [ref=f4e389]
+                - row "International" [ref=f4e390] [cursor=pointer]:
+                  - gridcell "International" [ref=f4e391]
+              - group "Maximum flight time in hours" [ref=f4e392]:
+                - slider "Maximum flight time in hours" [ref=f4e397]: "8"
+          - separator [ref=f4e276]
+          - generic [ref=f4e277]:
+            - button "Back" [ref=f4e290] [cursor=pointer]
+            - button "See my picks" [ref=f4e398] [cursor=pointer]
+    - contentinfo [ref=f4e47]:
+      - generic [ref=f4e48]: Vacation Roulette — a mock-first MVP. Prices, flight times, and imagery are estimates; verify before booking.
