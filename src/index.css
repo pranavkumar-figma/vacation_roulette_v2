@@ -1,6 +1,7 @@
 @import url("./reset.css");
 @import url("./responsive.css");
 @import url("./theme.css");
+@import url("./theme-mode.css");
 @import url("./icons.css");
 
 :root {
