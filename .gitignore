@@ -25,3 +25,6 @@ dist-ssr
 *.sln
 *.sw?
 *storybook.log
+
+# Playwright MCP test artifacts (screenshots, snapshots)
+.playwright-mcp/
