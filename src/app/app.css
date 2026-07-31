@@ -1,5 +1,7 @@
 /* App-specific layout. All values come from SDS tokens (PRD section 12). */
 
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
 .vr-app {
   display: flex;
   flex-direction: column;
@@ -43,6 +45,7 @@
   color: var(--sds-color-text-default-default);
   text-decoration: none;
   font: var(--sds-font-title-page);
+  font-family: "Alfa Slab One", cursive;
   font-weight: 700;
 }
 
